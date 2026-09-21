@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title">
+  <title id="title">Placeholder institucional</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2744"/>
+      <stop offset="100%" stop-color="#0d1322"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#sky)"/>
+  <rect x="80" y="220" width="120" height="260" fill="#242a3a"/>
+  <rect x="220" y="160" width="90" height="320" fill="#2f3445"/>
+  <rect x="330" y="200" width="160" height="280" fill="#191f2f"/>
+  <rect x="510" y="120" width="70" height="360" fill="#2f3445"/>
+  <rect x="600" y="180" width="140" height="300" fill="#242a3a"/>
+  <rect x="760" y="240" width="110" height="240" fill="#191f2f"/>
+  <rect y="480" width="960" height="60" fill="#0d1322"/>
+  <g fill="#89ceff" opacity="0.35">
+    <rect x="100" y="250" width="12" height="12"/>
+    <rect x="130" y="250" width="12" height="12"/>
+    <rect x="160" y="250" width="12" height="12"/>
+    <rect x="100" y="290" width="12" height="12"/>
+    <rect x="130" y="290" width="12" height="12"/>
+    <rect x="240" y="190" width="10" height="10"/>
+    <rect x="260" y="190" width="10" height="10"/>
+    <rect x="240" y="220" width="10" height="10"/>
+    <rect x="350" y="230" width="14" height="14"/>
+    <rect x="380" y="230" width="14" height="14"/>
+    <rect x="620" y="210" width="12" height="12"/>
+    <rect x="650" y="210" width="12" height="12"/>
+    <rect x="780" y="270" width="12" height="12"/>
+  </g>
+</svg>
