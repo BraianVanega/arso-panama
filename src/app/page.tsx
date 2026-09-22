@@ -4,10 +4,10 @@ import { AboutSection } from "@/components/sections/AboutSection";
 import { ComplianceSection } from "@/components/sections/ComplianceSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { Hero } from "@/components/sections/Hero";
+import { GrowthAreasSection } from "@/components/sections/GrowthAreasSection";
 import { MethodologySection } from "@/components/sections/MethodologySection";
-import { NonIntermediationBanner } from "@/components/sections/NonIntermediationBanner";
-import { RiskArchitectureSection } from "@/components/sections/RiskArchitectureSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
+import { TransparencyBanner } from "@/components/sections/TransparencyBanner";
 
 export default function Home() {
   return (
@@ -24,8 +24,8 @@ export default function Home() {
         <AboutSection />
         <ServicesSection />
         <MethodologySection />
-        <RiskArchitectureSection />
-        <NonIntermediationBanner />
+        <GrowthAreasSection />
+        <TransparencyBanner />
         <ComplianceSection />
         <ContactSection />
       </main>

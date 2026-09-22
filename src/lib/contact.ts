@@ -3,7 +3,7 @@ import { siteContent } from "@/content/site-content";
 
 const clientTypeOptions = siteContent.contact.form.fields.find(
   (field) => field.name === "clientType",
-)?.options ?? ["Empresa", "Persona natural"];
+)?.options ?? ["Empresa emergente", "Pequeña empresa", "Mediana empresa"];
 
 export const contactSchema = z.object({
   fullName: z.string().trim().min(1, "Campo obligatorio"),

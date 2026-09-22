@@ -1,16 +1,16 @@
 import Image from "next/image";
 import {
-  BadgeCheck,
-  Landmark,
-  ShieldCheck,
-  Wallet,
+  BarChart3,
+  Building2,
+  FileCheck,
+  Globe,
 } from "lucide-react";
 import { siteContent } from "@/content/site-content";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 
-const badgeIcons = [Landmark, Wallet, BadgeCheck, ShieldCheck];
+const badgeIcons = [FileCheck, BarChart3, Building2, Globe];
 
 export function Hero() {
   const { hero } = siteContent;
@@ -67,7 +67,7 @@ export function Hero() {
 
         <ul className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {hero.trustBadges.map((badge, index) => {
-            const Icon = badgeIcons[index] ?? ShieldCheck;
+            const Icon = badgeIcons[index] ?? FileCheck;
             return (
               <li
                 key={badge.title}

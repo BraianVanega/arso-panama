@@ -1,70 +1,25 @@
-import { Building2, Check, Info, UserRound } from "lucide-react";
+import {
+  Megaphone,
+  Rocket,
+  Share2,
+  Target,
+  TrendingUp,
+  Users,
+  Zap,
+} from "lucide-react";
 import { Container } from "@/components/Container";
-import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { siteContent } from "@/content/site-content";
 
-type ServiceCardProps = {
-  icon: typeof Building2;
-  label: string;
-  description: string;
-  items: readonly string[];
-  cta: string;
-  scopeNote?: string;
-};
-
-function ServiceCard({
-  icon: Icon,
-  label,
-  description,
-  items,
-  cta,
-  scopeNote,
-}: ServiceCardProps) {
-  return (
-    <Card className="flex h-full flex-col p-5 sm:p-7">
-      <div className="flex size-11 items-center justify-center rounded-md bg-primary-light text-primary">
-        <Icon className="size-5" aria-hidden="true" />
-      </div>
-      <h3 className="mt-5 text-xl font-semibold tracking-headline text-on-surface">
-        {label}
-      </h3>
-      <p className="mt-3 text-sm leading-6 text-on-surface-variant">
-        {description}
-      </p>
-
-      <ul className="mt-6 space-y-3">
-        {items.map((item) => (
-          <li
-            key={item}
-            className="flex items-start gap-3 text-sm leading-6 text-on-surface"
-          >
-            <Check
-              className="mt-1 size-4 shrink-0 text-secondary"
-              strokeWidth={2.5}
-              aria-hidden="true"
-            />
-            <span>{item}</span>
-          </li>
-        ))}
-      </ul>
-
-      {scopeNote ? (
-        <div className="mt-6 flex items-start gap-3 border-t border-outline pt-5 text-sm italic leading-6 text-on-surface-variant">
-          <Info
-            className="mt-1 size-4 shrink-0 text-on-surface-variant"
-            aria-hidden="true"
-          />
-          <p>{scopeNote}</p>
-        </div>
-      ) : null}
-
-      <Button href="#contacto" variant="secondary" className="mt-7 w-full sm:w-fit">
-        {cta}
-      </Button>
-    </Card>
-  );
-}
+const serviceIcons = [
+  Rocket,
+  Megaphone,
+  Users,
+  Zap,
+  TrendingUp,
+  Share2,
+  Target,
+];
 
 export function ServicesSection() {
   const { services } = siteContent;
@@ -91,23 +46,27 @@ export function ServicesSection() {
           </p>
         </div>
 
-        <div className="mt-10 grid items-stretch gap-5 lg:grid-cols-2 lg:gap-6">
-          <ServiceCard
-            icon={Building2}
-            label={services.business.label}
-            description={services.business.description}
-            items={services.business.items}
-            cta={services.business.cta}
-          />
-          <ServiceCard
-            icon={UserRound}
-            label={services.individuals.label}
-            description={services.individuals.description}
-            items={services.individuals.items}
-            cta={services.individuals.cta}
-            scopeNote={services.individuals.scopeNote}
-          />
-        </div>
+        <p className="mx-auto mt-8 max-w-3xl rounded-md border border-outline bg-surface px-4 py-3 text-center text-sm leading-6 text-on-surface-variant shadow-sm">
+          {services.scopeNote}
+        </p>
+
+        <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {services.items.map((item, index) => {
+            const Icon = serviceIcons[index] ?? Target;
+            return (
+              <li key={item}>
+                <Card className="h-full p-5 sm:p-6">
+                  <span className="flex size-10 items-center justify-center rounded-sm bg-primary-light text-primary">
+                    <Icon className="size-5" aria-hidden="true" />
+                  </span>
+                  <p className="mt-4 text-sm font-medium leading-6 text-on-surface">
+                    {item}
+                  </p>
+                </Card>
+              </li>
+            );
+          })}
+        </ul>
       </Container>
     </section>
   );

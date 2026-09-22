@@ -10,7 +10,7 @@ import { cn } from "@/lib/cn";
 
 const clientTypeOptions = siteContent.contact.form.fields.find(
   (field) => field.name === "clientType",
-)?.options ?? ["Empresa", "Persona natural"];
+)?.options ?? ["Empresa emergente", "Pequeña empresa", "Mediana empresa"];
 
 const fieldClassName =
   "w-full rounded-sm border border-outline bg-surface px-3 py-2.5 text-sm text-on-surface placeholder:text-on-surface-variant focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/30";

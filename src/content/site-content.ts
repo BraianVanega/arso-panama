@@ -1,17 +1,17 @@
 // src/content/site-content.ts
 // Contenido centralizado del sitio ARSOPA Solutions S.A.
-// Basado en el brief corporativo — no inventar clientes, cifras, certificaciones ni testimonios.
+// Empresa de servicios (Ley 32 de 2011) — mercadeo digital B2B.
 
 export const siteContent = {
   meta: {
-    title: "ARSOPA Solutions S.A. | Consultoría Financiera y Administrativa",
+    title: "ARSOPA Solutions S.A. | Mercadeo Digital B2B para Empresas",
     description:
-      "Ayudamos a empresas y personas naturales a organizar información financiera, identificar riesgos y mejorar sus procesos de planificación y control.",
+      "Diseño, implementación y gestión de estrategias digitales para empresas emergentes, pequeñas y medianas que buscan captar clientes y expandirse a nuevos mercados.",
   },
 
   header: {
     brandName: "ARSOPA SOLUTIONS S.A.",
-    tagline: "Consultoría Financiera y Administrativa",
+    tagline: "Mercadeo Digital B2B para Empresas",
     nav: [
       { label: "Inicio", href: "#inicio" },
       { label: "Servicios", href: "#servicios" },
@@ -23,47 +23,42 @@ export const siteContent = {
   },
 
   hero: {
-    headline:
-      "Soluciones para una gestión financiera y empresarial más ordenada.",
+    headline: "Estrategias digitales para escalar tu negocio a nuevos mercados.",
     subtext:
-      "Ayudamos a empresas y personas naturales a organizar información financiera, identificar riesgos y mejorar sus procesos de planificación y control.",
+      "Ayudamos a empresas emergentes, pequeñas y medianas a digitalizar sus procesos comerciales, captar clientes y expandirse mediante estrategias de mercadeo digital orientadas a resultados.",
     primaryCta: "Conocer nuestros servicios",
     secondaryCta: "Solicitar una consulta",
     entityCard: {
       title: "ARSOPA Solutions S.A.",
       details: [
         "Panamá · Zona Franca IFZA",
-        "Empresa de consultoría financiera y administrativa",
+        "Empresa de servicios · Mercadeo digital B2B",
       ],
     },
     trustBadges: [
       {
-        title: "100% Independiente",
-        description:
-          "Sin vínculos que comprometan la objetividad del análisis.",
+        title: "Contratos Formalizados",
+        description: "Cada servicio se define por alcance y condiciones claras.",
       },
       {
-        title: "Cero Custodia",
-        description:
-          "No recibimos, custodiamos ni administramos fondos de clientes.",
+        title: "Estrategia Basada en Datos",
+        description: "Decisiones sustentadas en métricas, no en promesas.",
       },
       {
-        title: "Metodología Verificada",
-        description:
-          "Un proceso ordenado y documentado en cada etapa del servicio.",
+        title: "Enfoque B2B Especializado",
+        description: "Diseñado para empresas emergentes, pequeñas y medianas.",
       },
       {
-        title: "Control Interno",
-        description:
-          "Procesos propios de control y trazabilidad en cada entrega.",
+        title: "Expansión Internacional",
+        description: "Estrategias pensadas para múltiples mercados.",
       },
     ],
   },
 
   about: {
     eyebrow: "Institución y Trayectoria",
-    title: "Sobre ARSOPA Solutions S.A. · Respaldo y Solidez Institucional",
-    body: "ARSOPA Solutions S.A. es una empresa panameña orientada a apoyar a empresas y personas naturales en la organización de sus procesos financieros y administrativos. Nuestro trabajo se basa en el análisis, la planificación, el control interno y la identificación de riesgos.",
+    title: "Sobre ARSOPA Solutions S.A.",
+    body: "ARSOPA Solutions S.A. es una empresa panameña de servicios (Ley 32 de 2011) dedicada a la prestación de servicios de mercadeo digital a nivel internacional, bajo un modelo de negocio entre empresas (B2B). Trabajamos con empresas emergentes, pequeñas y medianas que requieren soluciones para la digitalización de sus procesos comerciales, la captación de clientes y la expansión hacia nuevos mercados.",
     representative: {
       label: "Representante Legal",
       name: "Kevin",
@@ -75,42 +70,20 @@ export const siteContent = {
 
   services: {
     eyebrow: "Catálogo de Servicios",
-    title: "Áreas de Práctica Especializada",
+    title: "Soluciones de Mercadeo Digital para Empresas",
     subtitle:
-      "Estructuramos intervenciones profesionales orientadas al análisis, la organización y la identificación de riesgos de cada cliente.",
-    business: {
-      label: "Servicios para Empresas",
-      description:
-        "Diagnóstico y ordenamiento financiero para empresas, sin intervenir sobre fondos ni operaciones bancarias.",
-      items: [
-        "Diagnóstico administrativo y financiero",
-        "Elaboración de presupuestos y proyecciones",
-        "Organización de flujos de caja",
-        "Identificación de riesgos operativos y financieros",
-        "Diseño de controles internos",
-        "Preparación de reportes gerenciales",
-        "Análisis de costos y rentabilidad",
-        "Organización documental y apoyo en planificación comercial",
-        "Creación de indicadores y tableros de gestión",
-      ],
-      cta: "Ver detalle de servicios para empresas",
-    },
-    individuals: {
-      label: "Servicios para Personas Naturales",
-      description:
-        "Acompañamiento y ordenamiento financiero personal, con foco en planificación y control — sin ofrecer inversiones ni administración de patrimonio.",
-      items: [
-        "Organización financiera personal",
-        "Elaboración de presupuestos",
-        "Planificación de ingresos y gastos",
-        "Identificación de riesgos financieros personales",
-        "Educación financiera general",
-        "Diseño de planes de ahorro y control",
-      ],
-      cta: "Ver detalle de servicios para personas",
-      scopeNote:
-        "No ofrecemos inversiones, administración de patrimonio ni recomendaciones sobre instrumentos financieros.",
-    },
+      "Diseñamos, implementamos y gestionamos estrategias digitales orientadas al crecimiento comercial de empresas emergentes, pequeñas y medianas.",
+    items: [
+      "Diseño e implementación de estrategias digitales de crecimiento comercial",
+      "Campañas de marketing digital",
+      "Generación de prospectos (lead generation)",
+      "Automatización de ventas",
+      "Posicionamiento digital",
+      "Gestión de canales comerciales",
+      "Optimización de procesos de captación de clientes",
+    ],
+    scopeNote:
+      "Trabajamos bajo modelo de negocio entre empresas (B2B), dirigido a empresas emergentes, pequeñas y medianas.",
   },
 
   methodology: {
@@ -129,7 +102,7 @@ export const siteContent = {
         number: "02",
         title: "Diagnóstico de necesidades",
         description:
-          "Relevamiento de la situación administrativa y financiera actual.",
+          "Relevamiento de los procesos comerciales y objetivos de digitalización del cliente.",
       },
       {
         number: "03",
@@ -140,7 +113,8 @@ export const siteContent = {
       {
         number: "04",
         title: "Análisis de la información",
-        description: "Revisión y procesamiento de la información recabada.",
+        description:
+          "Revisión de canales, audiencia y oportunidades de mercado.",
       },
       {
         number: "05",
@@ -157,52 +131,50 @@ export const siteContent = {
     ],
   },
 
-  riskManagement: {
-    eyebrow: "Alcance Consultivo",
-    title: "Arquitectura Preventiva de Riesgos Empresariales",
+  growthAreas: {
+    eyebrow: "Alcance del Servicio",
+    title: "Áreas de Intervención Estratégica",
     subtitle:
-      "Nuestra metodología ayuda a identificar y documentar las variables críticas que comprometen la viabilidad patrimonial de las organizaciones en entornos de alta volatilidad.",
+      "Trabajamos sobre las variables que determinan el crecimiento comercial de una empresa en mercados digitales.",
     disclaimer:
-      "ARSOPA entrega análisis y recomendaciones, pero no administra el dinero del cliente.",
+      "ARSOPA entrega estrategia, implementación y seguimiento — los resultados dependen de la ejecución conjunta y las condiciones de cada mercado.",
     items: [
       {
-        title: "Riesgo de Flujo de Caja",
+        title: "Estrategia y Posicionamiento",
         description:
-          "Planificación financiera y anticipación de necesidades de liquidez.",
+          "Definición de la propuesta de valor digital de la empresa.",
       },
       {
-        title: "Concentración de Clientes y Proveedores",
+        title: "Generación de Demanda",
         description:
-          "Identificación de dependencias que comprometen la continuidad del negocio.",
+          "Captación de prospectos calificados mediante campañas segmentadas.",
       },
       {
-        title: "Procesos y Controles Internos",
-        description:
-          "Revisión de procesos administrativos y su nivel de control.",
+        title: "Automatización Comercial",
+        description: "Procesos de ventas y seguimiento automatizados.",
       },
       {
-        title: "Continuidad Operativa",
-        description:
-          "Evaluación de la capacidad de la organización para sostener su operación.",
+        title: "Expansión a Nuevos Mercados",
+        description: "Estrategias adaptadas a mercados internacionales.",
       },
       {
-        title: "Manejo y Protección de Información",
+        title: "Medición y Optimización",
         description:
-          "Buenas prácticas para el resguardo de información sensible.",
+          "Ajuste continuo de campañas en base a métricas reales.",
       },
     ],
   },
 
-  nonIntermediationBanner: {
-    label: "Cláusula de No Intermediación ni Custodia",
-    text: "ARSOPA Solutions S.A. entrega exclusivamente servicios de análisis financiero, consultoría y recomendaciones estratégicas. La empresa NO capta, administra ni custodia fondos de terceros ni realiza operaciones en nombre de sus clientes en ninguna forma o modalidad.",
+  transparencyBanner: {
+    label: "Cláusula de Transparencia y Resultados",
+    text: "ARSOPA Solutions S.A. entrega servicios de estrategia, implementación y gestión de mercadeo digital bajo contratos formales. La empresa NO garantiza resultados específicos de campañas ni administra presupuestos publicitarios de terceros fuera de lo expresamente autorizado por contrato.",
   },
 
   compliance: {
     eyebrow: "Marco Regulatorio",
     title: "Cumplimiento, Transparencia y Rigor Contractual",
     intro:
-      "ARSOPA Solutions S.A. desarrolla sus servicios bajo principios de transparencia, confidencialidad y cumplimiento. La empresa no recibe, custodia ni administra fondos pertenecientes a sus clientes. Cada servicio se formaliza mediante una propuesta o contrato que establece su alcance, responsabilidades y condiciones.",
+      "ARSOPA Solutions S.A. desarrolla sus servicios bajo principios de transparencia y cumplimiento contractual. Cada proyecto se formaliza mediante una propuesta o contrato que establece su alcance, entregables, responsabilidades y condiciones.",
     items: [
       {
         title: "Contratos Formalizados y Confidencialidad",
@@ -210,9 +182,9 @@ export const siteContent = {
           "Cada servicio se formaliza mediante una propuesta o contrato con alcance y condiciones claras.",
       },
       {
-        title: "Debida Diligencia y KYC Riguroso",
+        title: "Alcance y Entregables Definidos",
         description:
-          "Procesos de conocimiento del cliente aplicados de forma consistente.",
+          "Cada campaña o estrategia se acota a objetivos y entregables medibles.",
       },
       {
         title: "Acuerdos de Confidencialidad y Secreto",
@@ -234,10 +206,10 @@ export const siteContent = {
       "Iniciá el diálogo confidencial con nuestro equipo para coordinar una sesión de exploración.",
     officeLabel: "Sede Institucional",
     officeDetails: {
-      address: "Panamá, República de Panamá", // TODO: confirmar dirección oficial exacta
+      address: "Panamá, República de Panamá",
       email: "contacto@arsospa.com",
-      phone: "", // TODO: teléfono empresarial
-      hours: "", // TODO: horario de atención
+      phone: "",
+      hours: "",
     },
     form: {
       fields: [
@@ -258,7 +230,7 @@ export const siteContent = {
           label: "Tipo de Cliente",
           type: "select",
           required: true,
-          options: ["Empresa", "Persona natural"],
+          options: ["Empresa emergente", "Pequeña empresa", "Mediana empresa"],
         },
         {
           name: "email",
@@ -280,8 +252,10 @@ export const siteContent = {
         },
       ],
       submitLabel: "Enviar Solicitud de Información",
-      successMessage: "Solicitud enviada. Responderemos a la brevedad al correo indicado.",
-      errorMessage: "No se pudo enviar la solicitud. Intente nuevamente o escriba a contacto@arsospa.com.",
+      successMessage:
+        "Solicitud enviada. Responderemos a la brevedad al correo indicado.",
+      errorMessage:
+        "No se pudo enviar la solicitud. Intente nuevamente o escriba a contacto@arsospa.com.",
     },
   },
 
@@ -292,8 +266,12 @@ export const siteContent = {
         items: ["Nosotros", "Cuerpo Consultor", "Cumplimiento"],
       },
       {
-        title: "Áreas de Práctica",
-        items: ["Servicios para Empresas", "Servicios para Personas Naturales"],
+        title: "Servicios",
+        items: [
+          "Mercadeo Digital",
+          "Automatización Comercial",
+          "Expansión Internacional",
+        ],
       },
       {
         title: "Contacto y Horario",
@@ -306,7 +284,6 @@ export const siteContent = {
     ],
     legalLine:
       "ARSOPA Solutions S.A. · Panamá, República de Panamá. Todos los derechos reservados.",
-    // TODO: incorporar RUC cuando esté disponible
   },
 } as const;
 
