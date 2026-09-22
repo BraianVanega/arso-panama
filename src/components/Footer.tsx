@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container } from "@/components/Container";
 import { siteContent } from "@/content/site-content";
 
@@ -28,11 +29,22 @@ export function Footer() {
   );
 
   return (
-    <footer className="border-t border-outline/50 bg-surface">
+    <footer className="border-t border-outline bg-surface">
       <Container className="py-12 sm:py-16">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {columns.map((column) => (
+          {columns.map((column, index) => (
             <div key={column.title}>
+              {index === 0 ? (
+                <div className="mb-4">
+                  <Image
+                    src="/images/logo-mark.png"
+                    alt=""
+                    width={40}
+                    height={40}
+                    className="size-10 object-contain"
+                  />
+                </div>
+              ) : null}
               <h2 className="text-sm font-semibold tracking-headline text-on-surface">
                 {column.title}
               </h2>
@@ -41,7 +53,7 @@ export function Footer() {
                   <li key={item}>
                     <a
                       href={hrefForFooterItem(item)}
-                      className="text-sm text-on-surface-variant transition-colors hover:text-on-surface"
+                      className="text-sm text-on-surface-variant transition-colors hover:text-primary"
                     >
                       {item}
                     </a>
@@ -52,7 +64,7 @@ export function Footer() {
           ))}
         </div>
 
-        <p className="mt-12 border-t border-outline/50 pt-6 text-center text-xs leading-5 text-on-surface-variant">
+        <p className="mt-12 border-t border-outline pt-6 text-center text-xs leading-5 text-on-surface-variant">
           {siteContent.footer.legalLine}
         </p>
       </Container>

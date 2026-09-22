@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     siteName: siteContent.header.brandName,
     images: [
       {
-        url: "/images/sede-placeholder.svg",
-        alt: "Imagen institucional de ARSOPA Solutions S.A. (placeholder)",
+        url: "/images/logo.png",
+        alt: siteContent.header.brandName,
       },
     ],
   },

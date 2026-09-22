@@ -57,7 +57,7 @@ export function ContactSection() {
                 const Icon = item.icon;
                 return (
                   <li key={item.label} className="flex items-start gap-3">
-                    <span className="mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-sm bg-surface-container-high text-primary-light">
+                    <span className="mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-sm bg-primary-light text-primary">
                       <Icon className="size-4" aria-hidden="true" />
                     </span>
                     <div>
@@ -67,7 +67,7 @@ export function ContactSection() {
                       {item.href ? (
                         <a
                           href={item.href}
-                          className="mt-1 block text-sm leading-6 text-on-surface transition-colors hover:text-primary-light"
+                          className="mt-1 block text-sm leading-6 text-on-surface transition-colors hover:text-primary"
                         >
                           {item.value}
                         </a>

@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0d1322;
-  --surface: #151b2b;
-  --surface-container: #191f2f;
-  --surface-container-high: #242a3a;
-  --surface-container-highest: #2f3445;
-  --on-surface: #dde2f8;
-  --on-surface-variant: #bec8d2;
-  --outline: #3e4850;
-  --primary: #0ea5e9;
-  --primary-light: #89ceff;
-  --on-primary: #003751;
-  --secondary: #7bd0ff;
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-container: #f1f5f9;
+  --surface-container-high: #e2e8f0;
+  --on-surface: #0f172a;
+  --on-surface-variant: #475569;
+  --outline: #cbd5e1;
+  --primary: #1d4ed8;
+  --primary-hover: #1e40af;
+  --primary-light: #dbeafe;
+  --secondary: #0f766e;
+  --secondary-light: #ccfbf1;
 }
 
 @theme inline {
@@ -20,14 +20,14 @@
   --color-surface: var(--surface);
   --color-surface-container: var(--surface-container);
   --color-surface-container-high: var(--surface-container-high);
-  --color-surface-container-highest: var(--surface-container-highest);
   --color-on-surface: var(--on-surface);
   --color-on-surface-variant: var(--on-surface-variant);
   --color-outline: var(--outline);
   --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
   --color-primary-light: var(--primary-light);
-  --color-on-primary: var(--on-primary);
   --color-secondary: var(--secondary);
+  --color-secondary-light: var(--secondary-light);
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 
@@ -49,6 +49,6 @@ body {
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--primary) 35%, transparent);
+  background: var(--primary-light);
   color: var(--on-surface);
 }

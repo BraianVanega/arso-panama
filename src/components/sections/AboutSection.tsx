@@ -10,12 +10,12 @@ export function AboutSection() {
     <section
       id="nosotros"
       aria-labelledby="about-title"
-      className="scroll-mt-16 border-b border-outline/40 py-16 sm:py-20 lg:py-24"
+      className="scroll-mt-16 border-b border-outline py-16 sm:py-20 lg:py-24"
     >
       <Container>
         <div className="grid items-center">
           <div className="flex flex-col items-center">
-            <p className="text-xs text-center font-semibold uppercase tracking-[0.18em] text-primary-light">
+            <p className="text-xs text-center font-semibold uppercase tracking-[0.18em] text-primary">
               {about.eyebrow}
             </p>
             <h2
@@ -30,9 +30,9 @@ export function AboutSection() {
 
             <Card
               as="aside"
-              className="mt-8 flex items-start gap-4 bg-surface p-5 sm:p-6"
+              className="mt-8 flex items-start gap-4 p-5 sm:p-6"
             >
-              <span className="flex size-10 shrink-0 items-center justify-center rounded-sm bg-surface-container-high text-primary-light">
+              <span className="flex size-10 shrink-0 items-center justify-center rounded-sm bg-primary-light text-primary">
                 <UsersRound className="size-5" aria-hidden="true" />
               </span>
               <p className="text-sm leading-6 text-on-surface-variant">
@@ -42,8 +42,8 @@ export function AboutSection() {
           </div>
 
           {/* <Card className="overflow-hidden">
-            <div className="border-b border-outline/50 bg-surface-container-high p-6">
-              <span className="flex size-12 items-center justify-center rounded-md bg-primary/10 text-primary-light">
+            <div className="border-b border-outline bg-surface-container p-6">
+              <span className="flex size-12 items-center justify-center rounded-md bg-primary-light text-primary">
                 <BadgeCheck className="size-6" aria-hidden="true" />
               </span>
             </div>
@@ -54,7 +54,7 @@ export function AboutSection() {
               <h3 className="mt-3 text-2xl font-semibold tracking-headline text-on-surface">
                 {about.representative.name}
               </h3>
-              <span className="mt-5 inline-flex items-center gap-2 rounded-sm border border-primary/35 bg-primary/10 px-3 py-2 text-xs font-semibold text-primary-light">
+              <span className="mt-5 inline-flex items-center gap-2 rounded-sm border border-secondary/30 bg-secondary-light px-3 py-2 text-xs font-semibold text-secondary">
                 <BadgeCheck className="size-4" aria-hidden="true" />
                 {about.representative.role}
               </span>

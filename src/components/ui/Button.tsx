@@ -2,12 +2,12 @@ import type { MouseEventHandler, ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 const baseStyles =
-  "inline-flex min-h-10 items-center justify-center rounded-sm px-5 py-2.5 text-center text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-light/70 focus-visible:ring-offset-2 focus-visible:ring-offset-background";
+  "inline-flex min-h-10 items-center justify-center rounded-sm px-5 py-2.5 text-center text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 focus-visible:ring-offset-2 focus-visible:ring-offset-background";
 
 const variants = {
-  primary: "bg-primary text-on-primary hover:bg-primary-light",
+  primary: "bg-primary text-white hover:bg-primary-hover",
   secondary:
-    "border border-outline bg-transparent text-on-surface hover:bg-surface-container",
+    "border border-outline bg-transparent text-on-surface hover:border-primary",
 } as const;
 
 type ButtonVariant = keyof typeof variants;

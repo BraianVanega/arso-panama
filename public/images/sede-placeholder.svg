@@ -2,19 +2,19 @@
   <title id="title">Placeholder institucional</title>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a2744"/>
-      <stop offset="100%" stop-color="#0d1322"/>
+      <stop offset="0%" stop-color="#e8eef6"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
     </linearGradient>
   </defs>
   <rect width="960" height="540" fill="url(#sky)"/>
-  <rect x="80" y="220" width="120" height="260" fill="#242a3a"/>
-  <rect x="220" y="160" width="90" height="320" fill="#2f3445"/>
-  <rect x="330" y="200" width="160" height="280" fill="#191f2f"/>
-  <rect x="510" y="120" width="70" height="360" fill="#2f3445"/>
-  <rect x="600" y="180" width="140" height="300" fill="#242a3a"/>
-  <rect x="760" y="240" width="110" height="240" fill="#191f2f"/>
-  <rect y="480" width="960" height="60" fill="#0d1322"/>
-  <g fill="#89ceff" opacity="0.35">
+  <rect x="80" y="220" width="120" height="260" fill="#cbd5e1"/>
+  <rect x="220" y="160" width="90" height="320" fill="#b6c3d4"/>
+  <rect x="330" y="200" width="160" height="280" fill="#dce3ec"/>
+  <rect x="510" y="120" width="70" height="360" fill="#b6c3d4"/>
+  <rect x="600" y="180" width="140" height="300" fill="#cbd5e1"/>
+  <rect x="760" y="240" width="110" height="240" fill="#dce3ec"/>
+  <rect y="480" width="960" height="60" fill="#e2e8f0"/>
+  <g fill="#1d4ed8" opacity="0.28">
     <rect x="100" y="250" width="12" height="12"/>
     <rect x="130" y="250" width="12" height="12"/>
     <rect x="160" y="250" width="12" height="12"/>

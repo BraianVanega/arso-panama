@@ -12,7 +12,7 @@ export function Header() {
   const { header } = siteContent;
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-outline/50 bg-background/92 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-outline bg-surface shadow-sm">
       <Container className="flex h-16 items-center justify-between gap-4">
         <Logo />
 
@@ -31,7 +31,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           <a
             href="#contacto"
-            className="hidden rounded-sm bg-primary px-4 py-2 text-sm font-semibold text-on-primary transition-colors hover:bg-primary-light sm:inline-flex"
+            className="hidden rounded-sm bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-hover sm:inline-flex"
           >
             {header.cta}
           </a>
@@ -51,7 +51,7 @@ export function Header() {
       <div
         id="menu-movil"
         className={cn(
-          "border-t border-outline/50 bg-background lg:hidden",
+          "border-t border-outline bg-surface lg:hidden",
           open ? "block" : "hidden",
         )}
       >
@@ -68,7 +68,7 @@ export function Header() {
           ))}
           <a
             href="#contacto"
-            className="mt-2 rounded-sm bg-primary px-4 py-2.5 text-center text-sm font-semibold text-on-primary"
+            className="mt-2 rounded-sm bg-primary px-4 py-2.5 text-center text-sm font-semibold text-white"
             onClick={() => setOpen(false)}
           >
             {header.cta}

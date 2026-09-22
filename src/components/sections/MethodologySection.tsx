@@ -10,7 +10,7 @@ export function MethodologySection() {
     <section
       id="metodologia"
       aria-labelledby="methodology-title"
-      className="scroll-mt-16 border-b border-outline/40 py-16 sm:py-20 lg:py-24"
+      className="scroll-mt-16 border-b border-outline py-16 sm:py-20 lg:py-24"
     >
       <Container>
         <SectionHeading
@@ -24,7 +24,7 @@ export function MethodologySection() {
           {methodology.steps.map((step) => (
             <li key={step.number}>
               <Card className="h-full p-5 sm:p-6">
-                <span className="block text-3xl font-semibold tracking-headline text-primary-light">
+                <span className="block text-3xl font-semibold tracking-headline text-primary">
                   {step.number}
                 </span>
                 <h3 className="mt-4 text-lg font-semibold tracking-headline text-on-surface">

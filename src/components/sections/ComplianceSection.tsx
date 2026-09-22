@@ -13,7 +13,7 @@ export function ComplianceSection() {
     <section
       id="cumplimiento"
       aria-labelledby="compliance-title"
-      className="scroll-mt-16 border-b border-outline/40 py-16 sm:py-20 lg:py-24"
+      className="scroll-mt-16 border-b border-outline py-16 sm:py-20 lg:py-24"
     >
       <Container>
         <SectionHeading
@@ -29,7 +29,7 @@ export function ComplianceSection() {
             return (
               <li key={item.title}>
                 <Card className="h-full p-5 sm:p-6">
-                  <span className="flex size-10 items-center justify-center rounded-sm bg-surface-container-high text-primary-light">
+                  <span className="flex size-10 items-center justify-center rounded-sm bg-secondary-light text-secondary">
                     <Icon className="size-5" aria-hidden="true" />
                   </span>
                   <h3 className="mt-4 text-lg font-semibold tracking-headline text-on-surface">

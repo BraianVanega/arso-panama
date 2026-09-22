@@ -23,7 +23,7 @@ function ServiceCard({
 }: ServiceCardProps) {
   return (
     <Card className="flex h-full flex-col p-5 sm:p-7">
-      <div className="flex size-11 items-center justify-center rounded-md bg-surface-container-high text-primary-light">
+      <div className="flex size-11 items-center justify-center rounded-md bg-primary-light text-primary">
         <Icon className="size-5" aria-hidden="true" />
       </div>
       <h3 className="mt-5 text-xl font-semibold tracking-headline text-on-surface">
@@ -40,7 +40,7 @@ function ServiceCard({
             className="flex items-start gap-3 text-sm leading-6 text-on-surface"
           >
             <Check
-              className="mt-1 size-4 shrink-0 text-primary-light"
+              className="mt-1 size-4 shrink-0 text-secondary"
               strokeWidth={2.5}
               aria-hidden="true"
             />
@@ -50,9 +50,9 @@ function ServiceCard({
       </ul>
 
       {scopeNote ? (
-        <div className="mt-6 flex items-start gap-3 border-t border-outline/50 pt-5 text-sm italic leading-6 text-on-surface-variant">
+        <div className="mt-6 flex items-start gap-3 border-t border-outline pt-5 text-sm italic leading-6 text-on-surface-variant">
           <Info
-            className="mt-1 size-4 shrink-0 text-primary-light"
+            className="mt-1 size-4 shrink-0 text-on-surface-variant"
             aria-hidden="true"
           />
           <p>{scopeNote}</p>
@@ -73,11 +73,11 @@ export function ServicesSection() {
     <section
       id="servicios"
       aria-labelledby="services-title"
-      className="scroll-mt-16 border-b border-outline/40 bg-surface/35 py-16 sm:py-20 lg:py-24"
+      className="scroll-mt-16 border-b border-outline bg-surface-container py-16 sm:py-20 lg:py-24"
     >
       <Container>
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary-light">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
             {services.eyebrow}
           </p>
           <h2

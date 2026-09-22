@@ -16,7 +16,7 @@ export function Hero() {
   const { hero } = siteContent;
 
   return (
-    <section id="inicio" className="scroll-mt-16 border-b border-outline/40 pt-16">
+    <section id="inicio" className="scroll-mt-16 border-b border-outline pt-16">
       <Container className="py-16 sm:py-20 lg:py-24">
         <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:gap-14">
           <div>
@@ -42,7 +42,7 @@ export function Hero() {
           </div>
 
           <Card as="aside" className="overflow-hidden rounded-lg">
-            <div className="relative aspect-video bg-surface-container-high">
+            <div className="relative aspect-video bg-surface-container">
               <Image
                 src="/images/sede-placeholder.svg"
                 alt="Imagen institucional de ARSOPA Solutions S.A. (placeholder)"
@@ -71,9 +71,9 @@ export function Hero() {
             return (
               <li
                 key={badge.title}
-                className="flex items-start gap-3 rounded-md border border-outline/50 bg-surface px-4 py-4"
+                className="flex items-start gap-3 rounded-md border border-outline bg-surface px-4 py-4 shadow-sm"
               >
-                <span className="mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-sm bg-surface-container-high text-primary-light">
+                <span className="mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-sm bg-secondary-light text-secondary">
                   <Icon className="size-4" aria-hidden />
                 </span>
                 <span>

@@ -13,7 +13,7 @@ const clientTypeOptions = siteContent.contact.form.fields.find(
 )?.options ?? ["Empresa", "Persona natural"];
 
 const fieldClassName =
-  "w-full rounded-sm border border-outline bg-surface-container px-3 py-2.5 text-sm text-on-surface transition-shadow placeholder:text-on-surface-variant/70 focus:border-primary focus:shadow-[0_0_0_3px_rgba(14,165,233,0.28)] focus:outline-none";
+  "w-full rounded-sm border border-outline bg-surface px-3 py-2.5 text-sm text-on-surface placeholder:text-on-surface-variant focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/30";
 
 export function ContactForm() {
   const { form } = siteContent.contact;
@@ -68,7 +68,7 @@ export function ContactForm() {
             >
               {field.label}
               {field.required ? (
-                <span className="text-primary-light" aria-hidden="true">
+                <span className="text-primary" aria-hidden="true">
                   {" "}
                   *
                 </span>
@@ -114,7 +114,7 @@ export function ContactForm() {
             {error ? (
               <p
                 id={`${field.name}-error`}
-                className="mt-1.5 text-xs text-primary-light"
+                className="mt-1.5 text-xs text-red-700"
                 role="alert"
               >
                 {error}
@@ -125,12 +125,12 @@ export function ContactForm() {
       })}
 
       {status === "success" ? (
-        <p className="text-sm text-primary-light" role="status">
+        <p className="text-sm text-secondary" role="status">
           {form.successMessage}
         </p>
       ) : null}
       {status === "error" ? (
-        <p className="text-sm text-primary-light" role="alert">
+        <p className="text-sm text-red-700" role="alert">
           {form.errorMessage}
         </p>
       ) : null}
