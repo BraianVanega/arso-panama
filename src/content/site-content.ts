@@ -1,17 +1,17 @@
 // src/content/site-content.ts
 // Contenido centralizado del sitio ARSOPA Solutions S.A.
-// Empresa de servicios (Ley 32 de 2011) — mercadeo digital B2B.
+// Empresa de servicios (Ley 32 de 2011) — mercadeo digital B2B y P2B.
 
 export const siteContent = {
   meta: {
-    title: "ARSOPA Solutions S.A. | Mercadeo Digital B2B para Empresas",
+    title: "ARSOPA Solutions S.A. | Mercadeo Digital B2B y P2B para Empresas",
     description:
       "Diseño, implementación y gestión de estrategias digitales para empresas emergentes, pequeñas y medianas que buscan captar clientes y expandirse a nuevos mercados.",
   },
 
   header: {
     brandName: "ARSOPA SOLUTIONS S.A.",
-    tagline: "Mercadeo Digital B2B para Empresas",
+    tagline: "Mercadeo Digital B2B y P2B para Empresas",
     nav: [
       { label: "Inicio", href: "#inicio" },
       { label: "Servicios", href: "#servicios" },
@@ -32,7 +32,7 @@ export const siteContent = {
       title: "ARSOPA Solutions S.A.",
       details: [
         "Panamá · Zona Franca IFZA",
-        "Empresa de servicios · Mercadeo digital B2B",
+        "Empresa de servicios · Mercadeo digital B2B y P2B",
       ],
     },
     trustBadges: [
@@ -45,8 +45,8 @@ export const siteContent = {
         description: "Decisiones sustentadas en métricas, no en promesas.",
       },
       {
-        title: "Enfoque B2B Especializado",
-        description: "Diseñado para empresas emergentes, pequeñas y medianas.",
+        title: "Enfoque B2B y P2B Especializado",
+        description: "Diseñado para empresas emergentes, pequeñas y medianas, y para profesionales que venden a empresas.",
       },
       {
         title: "Expansión Internacional",
@@ -58,7 +58,7 @@ export const siteContent = {
   about: {
     eyebrow: "Institución y Trayectoria",
     title: "Sobre ARSOPA Solutions S.A.",
-    body: "ARSOPA Solutions S.A. es una empresa panameña de servicios (Ley 32 de 2011) dedicada a la prestación de servicios de mercadeo digital a nivel internacional, bajo un modelo de negocio entre empresas (B2B). Trabajamos con empresas emergentes, pequeñas y medianas que requieren soluciones para la digitalización de sus procesos comerciales, la captación de clientes y la expansión hacia nuevos mercados.",
+    body: "ARSOPA Solutions S.A. es una empresa panameña de servicios (Ley 32 de 2011) dedicada a la prestación de servicios de mercadeo digital a nivel internacional, bajo un modelo de negocio entre empresas (B2B) y de profesional a empresa (P2B). Trabajamos con empresas emergentes, pequeñas y medianas que requieren soluciones para la digitalización de sus procesos comerciales, la captación de clientes y la expansión hacia nuevos mercados.",
     representative: {
       label: "Representante Legal",
       name: "Kevin",
@@ -83,7 +83,7 @@ export const siteContent = {
       "Optimización de procesos de captación de clientes",
     ],
     scopeNote:
-      "Trabajamos bajo modelo de negocio entre empresas (B2B), dirigido a empresas emergentes, pequeñas y medianas.",
+      "Trabajamos bajo modelos de negocio entre empresas (B2B) y de profesional a empresa (P2B), dirigidos a empresas emergentes, pequeñas y medianas.",
   },
 
   methodology: {
