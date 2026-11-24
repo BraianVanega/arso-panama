@@ -25,7 +25,7 @@ export async function POST(request: Request) {
   const resend = new Resend(apiKey);
   const from =
     process.env.CONTACT_FROM_EMAIL ??
-    "ARSOPA Solutions S.A. <beth.t@example.com>";
+    "ARSOSPA Solutions S.A. <beth.t@example.com>";
 
   const { error } = await resend.emails.send({
     from,

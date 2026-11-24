@@ -1,16 +1,16 @@
 // src/content/site-content.ts
-// Contenido centralizado del sitio ARSOPA Solutions S.A.
+// Contenido centralizado del sitio ARSOSPA Solutions S.A.
 // Empresa de servicios (Ley 32 de 2011) — consultoría financiera, operativa y tecnológica.
 
 export const siteContent = {
   meta: {
-    title: "ARSOPA Solutions S.A. | Consultoría Financiera, Operativa y Tecnológica",
+    title: "ARSOSPA Solutions S.A. | Consultoría Financiera, Operativa y Tecnológica",
     description:
       "Consultoría financiera y operativa, desarrollo tecnológico y optimización de procesos transaccionales para empresas que buscan mayor eficiencia, seguridad y trazabilidad.",
   },
 
   header: {
-    brandName: "ARSOPA SOLUTIONS S.A.",
+    brandName: "ARSOSPA SOLUTIONS S.A.",
     tagline: "Consultoría Financiera y Tecnológica",
     nav: [
       { label: "Inicio", href: "#inicio" },
@@ -30,7 +30,7 @@ export const siteContent = {
     primaryCta: "Conocer nuestros servicios",
     secondaryCta: "Solicitar una consulta",
     facts: [
-      "ARSOPA Solutions S.A.",
+      "ARSOSPA Solutions S.A.",
       "Empresa de servicios · Ley 32 de 2011",
     ],
     trustBadges: [
@@ -58,8 +58,8 @@ export const siteContent = {
 
   about: {
     eyebrow: "Quiénes Somos y Qué Hacemos",
-    title: "Sobre ARSOPA Solutions S.A.",
-    body: "ARSOPA Solutions S.A. es una empresa panameña de servicios (Ley 32 de 2011) que se especializa en la prestación de servicios de consultoría en procesos financieros y administrativos, así como en el diseño, desarrollo e implementación de soluciones tecnológicas orientadas a optimizar la gestión de pagos, cobros, conciliaciones y operaciones en entornos digitales. Nuestra propuesta integra conocimiento operativo, herramientas digitales y criterios de control interno para ayudar a las empresas a estructurar sus flujos transaccionales, fortalecer la supervisión de sus operaciones y mejorar la eficiencia de sus recursos.",
+    title: "Sobre ARSOSPA Solutions S.A.",
+    body: "ARSOSPA Solutions S.A. es una empresa panameña de servicios (Ley 32 de 2011) que se especializa en la prestación de servicios de consultoría en procesos financieros y administrativos, así como en el diseño, desarrollo e implementación de soluciones tecnológicas orientadas a optimizar la gestión de pagos, cobros, conciliaciones y operaciones en entornos digitales. Nuestra propuesta integra conocimiento operativo, herramientas digitales y criterios de control interno para ayudar a las empresas a estructurar sus flujos transaccionales, fortalecer la supervisión de sus operaciones y mejorar la eficiencia de sus recursos.",
     representative: {
       label: "Representante Legal",
       name: "Kevin",
@@ -186,14 +186,14 @@ export const siteContent = {
 
   transparencyBanner: {
     label: "Cláusula de Transparencia y Resultados",
-    text: "ARSOPA Solutions S.A. presta servicios de consultoría financiera y operativa y de desarrollo tecnológico bajo contratos formales. La empresa NO garantiza resultados específicos y las decisiones finales corresponden exclusivamente a cada cliente.",
+    text: "ARSOSPA Solutions S.A. presta servicios de consultoría financiera y operativa y de desarrollo tecnológico bajo contratos formales. La empresa NO garantiza resultados específicos y las decisiones finales corresponden exclusivamente a cada cliente.",
   },
 
   compliance: {
     eyebrow: "Marco Regulatorio",
     title: "Cumplimiento, Transparencia y Rigor Contractual",
     intro:
-      "ARSOPA Solutions S.A. desarrolla sus servicios bajo principios de transparencia y cumplimiento contractual. Cada proyecto se formaliza mediante una propuesta o contrato que establece su alcance, entregables, responsabilidades y condiciones.",
+      "ARSOSPA Solutions S.A. desarrolla sus servicios bajo principios de transparencia y cumplimiento contractual. Cada proyecto se formaliza mediante una propuesta o contrato que establece su alcance, entregables, responsabilidades y condiciones.",
     items: [
       {
         title: "Contratos Formalizados y Confidencialidad",
@@ -281,7 +281,7 @@ export const siteContent = {
   footer: {
     columns: [
       {
-        title: "ARSOPA Solutions",
+        title: "ARSOSPA Solutions",
         items: ["Nosotros", "Cuerpo Consultor", "Cumplimiento"],
       },
       {
@@ -302,7 +302,7 @@ export const siteContent = {
       },
     ],
     legalLine:
-      "ARSOPA Solutions S.A. · Panamá, República de Panamá. Todos los derechos reservados.",
+      "ARSOSPA Solutions S.A. · Panamá, República de Panamá. Todos los derechos reservados.",
   },
 } as const;
 
