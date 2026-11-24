@@ -15,9 +15,9 @@ function hrefForFooterItem(item: string) {
     case "Aviso de Privacidad":
     case "Términos de Uso":
       return "#cumplimiento";
-    case "Mercadeo Digital":
-    case "Automatización Comercial":
-    case "Expansión Internacional":
+    case "Consultoría Financiera":
+    case "Gestión de Pagos y Cobros":
+    case "Desarrollo Tecnológico":
       return "#servicios";
     default:
       return "#contacto";

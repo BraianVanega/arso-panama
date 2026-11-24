@@ -1,17 +1,17 @@
 // src/content/site-content.ts
 // Contenido centralizado del sitio ARSOPA Solutions S.A.
-// Empresa de servicios (Ley 32 de 2011) — mercadeo digital B2B y P2B.
+// Empresa de servicios (Ley 32 de 2011) — consultoría financiera, operativa y tecnológica.
 
 export const siteContent = {
   meta: {
-    title: "ARSOPA Solutions S.A. | Mercadeo Digital B2B y P2B para Empresas",
+    title: "ARSOPA Solutions S.A. | Consultoría Financiera, Operativa y Tecnológica",
     description:
-      "Diseño, implementación y gestión de estrategias digitales para empresas emergentes, pequeñas y medianas que buscan captar clientes y expandirse a nuevos mercados.",
+      "Consultoría financiera y operativa, desarrollo tecnológico y optimización de procesos transaccionales para empresas que buscan mayor eficiencia, seguridad y trazabilidad.",
   },
 
   header: {
     brandName: "ARSOPA SOLUTIONS S.A.",
-    tagline: "Mercadeo Digital B2B y P2B para Empresas",
+    tagline: "Consultoría Financiera y Tecnológica",
     nav: [
       { label: "Inicio", href: "#inicio" },
       { label: "Servicios", href: "#servicios" },
@@ -23,16 +23,16 @@ export const siteContent = {
   },
 
   hero: {
-    headline: "Estrategias digitales para escalar tu negocio a nuevos mercados.",
+    headline: "Procesos financieros más eficientes, seguros y trazables.",
     subtext:
-      "Ayudamos a empresas emergentes, pequeñas y medianas a digitalizar sus procesos comerciales, captar clientes y expandirse mediante estrategias de mercadeo digital orientadas a resultados.",
+      "Consultoría financiera y operativa, desarrollo tecnológico y optimización de procesos transaccionales para empresas que buscan mayor eficiencia, seguridad y trazabilidad.",
     primaryCta: "Conocer nuestros servicios",
     secondaryCta: "Solicitar una consulta",
     entityCard: {
       title: "ARSOPA Solutions S.A.",
       details: [
         "Panamá · Zona Franca IFZA",
-        "Empresa de servicios · Mercadeo digital B2B y P2B",
+        "Empresa de servicios · Consultoría financiera y tecnológica",
       ],
     },
     trustBadges: [
@@ -41,24 +41,27 @@ export const siteContent = {
         description: "Cada servicio se define por alcance y condiciones claras.",
       },
       {
-        title: "Estrategia Basada en Datos",
-        description: "Decisiones sustentadas en métricas, no en promesas.",
+        title: "Control Interno",
+        description:
+          "Procedimientos de control, documentación y monitoreo de cada operación.",
       },
       {
-        title: "Enfoque B2B y P2B Especializado",
-        description: "Diseñado para empresas emergentes, pequeñas y medianas, y para profesionales que venden a empresas.",
+        title: "Trazabilidad",
+        description:
+          "Flujos transaccionales ordenados, medibles y verificables.",
       },
       {
-        title: "Expansión Internacional",
-        description: "Estrategias pensadas para múltiples mercados.",
+        title: "Soluciones a Medida",
+        description:
+          "Adaptadas a las herramientas y estructura de gestión de cada organización.",
       },
     ],
   },
 
   about: {
-    eyebrow: "Institución y Trayectoria",
+    eyebrow: "Quiénes Somos y Qué Hacemos",
     title: "Sobre ARSOPA Solutions S.A.",
-    body: "ARSOPA Solutions S.A. es una empresa panameña de servicios (Ley 32 de 2011) dedicada a la prestación de servicios de mercadeo digital a nivel internacional, bajo un modelo de negocio entre empresas (B2B) y de profesional a empresa (P2B). Trabajamos con empresas emergentes, pequeñas y medianas que requieren soluciones para la digitalización de sus procesos comerciales, la captación de clientes y la expansión hacia nuevos mercados.",
+    body: "ARSOPA Solutions S.A. es una empresa panameña de servicios (Ley 32 de 2011) que se especializa en la prestación de servicios de consultoría en procesos financieros y administrativos, así como en el diseño, desarrollo e implementación de soluciones tecnológicas orientadas a optimizar la gestión de pagos, cobros, conciliaciones y operaciones en entornos digitales. Nuestra propuesta integra conocimiento operativo, herramientas digitales y criterios de control interno para ayudar a las empresas a estructurar sus flujos transaccionales, fortalecer la supervisión de sus operaciones y mejorar la eficiencia de sus recursos.",
     representative: {
       label: "Representante Legal",
       name: "Kevin",
@@ -69,21 +72,39 @@ export const siteContent = {
   },
 
   services: {
-    eyebrow: "Catálogo de Servicios",
-    title: "Soluciones de Mercadeo Digital para Empresas",
+    eyebrow: "Líneas de Servicio",
+    title: "Nuestras principales líneas de servicio",
     subtitle:
-      "Diseñamos, implementamos y gestionamos estrategias digitales orientadas al crecimiento comercial de empresas emergentes, pequeñas y medianas.",
+      "Integramos conocimiento operativo, herramientas digitales y criterios de control interno para estructurar flujos transaccionales más eficientes, seguros y trazables.",
     items: [
-      "Diseño e implementación de estrategias digitales de crecimiento comercial",
-      "Campañas de marketing digital",
-      "Generación de prospectos (lead generation)",
-      "Automatización de ventas",
-      "Posicionamiento digital",
-      "Gestión de canales comerciales",
-      "Optimización de procesos de captación de clientes",
+      {
+        title: "Consultoría y asesoría especializada",
+        description:
+          "Diagnóstico, diseño y mejora de procesos financieros, administrativos y operativos.",
+      },
+      {
+        title: "Gestión de pagos y cobros",
+        description:
+          "Estructuración de procedimientos, coordinación operativa y optimización de flujos transaccionales.",
+      },
+      {
+        title: "Control y conciliación",
+        description:
+          "Implementación de mecanismos para registrar, verificar, conciliar y dar seguimiento a las operaciones.",
+      },
+      {
+        title: "Desarrollo e infraestructura tecnológica",
+        description:
+          "Diseño e implementación de soluciones digitales para automatización, supervisión y gestión de procesos.",
+      },
+      {
+        title: "Controles internos y trazabilidad",
+        description:
+          "Definición de procedimientos de control, documentación y monitoreo de movimientos financieros.",
+      },
     ],
     scopeNote:
-      "Trabajamos bajo modelos de negocio entre empresas (B2B) y de profesional a empresa (P2B), dirigidos a empresas emergentes, pequeñas y medianas.",
+      "Servicios de consultoría y desarrollo tecnológico para empresas que buscan mayor eficiencia, seguridad y trazabilidad en sus operaciones.",
   },
 
   methodology: {
@@ -100,9 +121,9 @@ export const siteContent = {
       },
       {
         number: "02",
-        title: "Diagnóstico de necesidades",
+        title: "Diagnóstico de procesos",
         description:
-          "Relevamiento de los procesos comerciales y objetivos de digitalización del cliente.",
+          "Relevamiento de los procesos financieros, administrativos y operativos del cliente.",
       },
       {
         number: "03",
@@ -114,7 +135,7 @@ export const siteContent = {
         number: "04",
         title: "Análisis de la información",
         description:
-          "Revisión de canales, audiencia y oportunidades de mercado.",
+          "Evaluación de flujos transaccionales, controles internos y oportunidades de mejora.",
       },
       {
         number: "05",
@@ -132,42 +153,42 @@ export const siteContent = {
   },
 
   growthAreas: {
-    eyebrow: "Alcance del Servicio",
-    title: "Áreas de Intervención Estratégica",
+    eyebrow: "El Desafío que Resolvemos",
+    title: "De procesos fragmentados a circuitos trazables",
     subtitle:
-      "Trabajamos sobre las variables que determinan el crecimiento comercial de una empresa en mercados digitales.",
+      "Muchas organizaciones gestionan sus operaciones financieras mediante procedimientos manuales, sistemas fragmentados o mecanismos de seguimiento insuficientes. Esto puede generar duplicidad de tareas, demoras, dificultades de conciliación, menor visibilidad de los movimientos y mayores riesgos operativos. Trabajamos para transformar estos procesos en circuitos más ordenados, medibles y trazables, facilitando una gestión administrativa y financiera más consistente.",
     disclaimer:
-      "ARSOPA entrega estrategia, implementación y seguimiento — los resultados dependen de la ejecución conjunta y las condiciones de cada mercado.",
+      "Cada solución se adapta a las necesidades, herramientas y estructura de gestión de la organización, priorizando la eficiencia y la continuidad operativa.",
     items: [
       {
-        title: "Estrategia y Posicionamiento",
+        title: "Menos Tareas Manuales",
         description:
-          "Definición de la propuesta de valor digital de la empresa.",
+          "Automatización y estandarización de procesos operativos repetitivos.",
       },
       {
-        title: "Generación de Demanda",
+        title: "Mayor Visibilidad",
         description:
-          "Captación de prospectos calificados mediante campañas segmentadas.",
+          "Seguimiento claro y oportuno de los procesos y movimientos financieros.",
       },
       {
-        title: "Automatización Comercial",
-        description: "Procesos de ventas y seguimiento automatizados.",
+        title: "Trazabilidad de Transacciones",
+        description: "Registro y verificación de cada operación de principio a fin.",
       },
       {
-        title: "Expansión a Nuevos Mercados",
-        description: "Estrategias adaptadas a mercados internacionales.",
+        title: "Costos Operativos Optimizados",
+        description: "Uso más eficiente de los recursos de la organización.",
       },
       {
-        title: "Medición y Optimización",
+        title: "Seguridad y Control",
         description:
-          "Ajuste continuo de campañas en base a métricas reales.",
+          "Procedimientos de control interno que reducen los riesgos operativos.",
       },
     ],
   },
 
   transparencyBanner: {
     label: "Cláusula de Transparencia y Resultados",
-    text: "ARSOPA Solutions S.A. entrega servicios de estrategia, implementación y gestión de mercadeo digital bajo contratos formales. La empresa NO garantiza resultados específicos de campañas ni administra presupuestos publicitarios de terceros fuera de lo expresamente autorizado por contrato.",
+    text: "ARSOPA Solutions S.A. presta servicios de consultoría financiera y operativa y de desarrollo tecnológico bajo contratos formales. La empresa NO garantiza resultados específicos y las decisiones finales corresponden exclusivamente a cada cliente.",
   },
 
   compliance: {
@@ -184,7 +205,7 @@ export const siteContent = {
       {
         title: "Alcance y Entregables Definidos",
         description:
-          "Cada campaña o estrategia se acota a objetivos y entregables medibles.",
+          "Cada proyecto se acota a objetivos y entregables definidos.",
       },
       {
         title: "Acuerdos de Confidencialidad y Secreto",
@@ -268,9 +289,9 @@ export const siteContent = {
       {
         title: "Servicios",
         items: [
-          "Mercadeo Digital",
-          "Automatización Comercial",
-          "Expansión Internacional",
+          "Consultoría Financiera",
+          "Gestión de Pagos y Cobros",
+          "Desarrollo Tecnológico",
         ],
       },
       {

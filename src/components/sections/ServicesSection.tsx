@@ -1,24 +1,20 @@
 import {
-  Megaphone,
-  Rocket,
-  Share2,
-  Target,
-  TrendingUp,
-  Users,
-  Zap,
+  ArrowLeftRight,
+  Briefcase,
+  ClipboardCheck,
+  Cpu,
+  ShieldCheck,
 } from "lucide-react";
 import { Container } from "@/components/Container";
 import { Card } from "@/components/ui/Card";
 import { siteContent } from "@/content/site-content";
 
 const serviceIcons = [
-  Rocket,
-  Megaphone,
-  Users,
-  Zap,
-  TrendingUp,
-  Share2,
-  Target,
+  Briefcase,
+  ArrowLeftRight,
+  ClipboardCheck,
+  Cpu,
+  ShieldCheck,
 ];
 
 export function ServicesSection() {
@@ -50,17 +46,20 @@ export function ServicesSection() {
           {services.scopeNote}
         </p>
 
-        <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {services.items.map((item, index) => {
-            const Icon = serviceIcons[index] ?? Target;
+            const Icon = serviceIcons[index] ?? Briefcase;
             return (
-              <li key={item}>
+              <li key={item.title}>
                 <Card className="h-full p-5 sm:p-6">
                   <span className="flex size-10 items-center justify-center rounded-sm bg-primary-light text-primary">
                     <Icon className="size-5" aria-hidden="true" />
                   </span>
-                  <p className="mt-4 text-sm font-medium leading-6 text-on-surface">
-                    {item}
+                  <h3 className="mt-4 text-lg font-semibold tracking-headline text-on-surface">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-6 text-on-surface-variant">
+                    {item.description}
                   </p>
                 </Card>
               </li>
