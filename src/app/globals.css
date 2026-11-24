@@ -52,3 +52,45 @@ body {
   background: var(--primary-light);
   color: var(--on-surface);
 }
+
+/* Hero: zoom lento de la foto y línea de tendencia que se dibuja */
+@keyframes hero-kenburns {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+
+@keyframes hero-trend-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes hero-in {
+  from { opacity: 0; translate: 0 20px; }
+  to { opacity: 1; translate: 0 0; }
+}
+
+.hero-kenburns {
+  animation: hero-kenburns 24s ease-in-out infinite alternate;
+  transform-origin: 30% 50%;
+}
+
+.hero-trend {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: hero-trend-draw 3.5s cubic-bezier(0.65, 0, 0.35, 1) 0.4s forwards;
+}
+
+.hero-enter > * {
+  animation: hero-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.hero-enter > :nth-child(1) { animation-delay: 0.1s; }
+.hero-enter > :nth-child(2) { animation-delay: 0.22s; }
+.hero-enter > :nth-child(3) { animation-delay: 0.34s; }
+.hero-enter > :nth-child(4) { animation-delay: 0.46s; }
+.hero-enter > :nth-child(5) { animation-delay: 0.58s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-kenburns,
+  .hero-enter > * { animation: none; }
+  .hero-trend { animation: none; stroke-dashoffset: 0; }
+}

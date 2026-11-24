@@ -8,6 +8,8 @@ const variants = {
   primary: "bg-primary text-white hover:bg-primary-hover",
   secondary:
     "border border-outline bg-transparent text-on-surface hover:border-primary",
+  inverse:
+    "border border-white/40 bg-white/5 text-white backdrop-blur-sm hover:border-white hover:bg-white/10",
 } as const;
 
 type ButtonVariant = keyof typeof variants;

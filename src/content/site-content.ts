@@ -23,18 +23,16 @@ export const siteContent = {
   },
 
   hero: {
+    eyebrow: "Ciudad de Panamá · República de Panamá",
     headline: "Procesos financieros más eficientes, seguros y trazables.",
     subtext:
       "Consultoría financiera y operativa, desarrollo tecnológico y optimización de procesos transaccionales para empresas que buscan mayor eficiencia, seguridad y trazabilidad.",
     primaryCta: "Conocer nuestros servicios",
     secondaryCta: "Solicitar una consulta",
-    entityCard: {
-      title: "ARSOPA Solutions S.A.",
-      details: [
-        "Panamá · Zona Franca IFZA",
-        "Empresa de servicios · Consultoría financiera y tecnológica",
-      ],
-    },
+    facts: [
+      "ARSOPA Solutions S.A.",
+      "Empresa de servicios · Ley 32 de 2011",
+    ],
     trustBadges: [
       {
         title: "Contratos Formalizados",
